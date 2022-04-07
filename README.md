@@ -29,6 +29,8 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+> When you run with dev server, change the background image url.
+
 ## Overview
 
 ### The challenge
