@@ -7,7 +7,7 @@ import { data } from "../../utils/data";
 const destination = ({ destination, names }) => {
   const { name, desc, distance, time, img } = destination;
   return (
-    <div className="bg-[url('./../public/assets/destination/background-destination-mobile.jpg')] sm:bg-[url('./../public/assets/destination/background-destination-tablet.jpg')] lg:bg-[url('./../public/assets/destination/background-destination-desktop.jpg')] bg-cover w-screen min-h-screen flex flex-col pb-10">
+    <div className="bg-[url('/assets/destination/background-destination-mobile.jpg')] sm:bg-[url('/assets/destination/background-destination-tablet.jpg')] lg:bg-[url('/assets/destination/background-destination-desktop.jpg')] bg-cover w-screen min-h-screen flex flex-col pb-10">
       <Navbar active="01" />
       <SubHeading id="01" text="Pick your destination" />
       <main className="flex-auto flex flex-col lg:flex-row lg:justify-around items-center lg:items-start px-10">

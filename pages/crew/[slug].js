@@ -6,7 +6,7 @@ import { data } from "../../utils/data";
 
 const crew = ({ crew, slugs }) => {
   return (
-    <div className="flex flex-col bg-[url('./../public/assets/crew/background-crew-mobile.jpg')] sm:bg-[url('./../public/assets/crew/background-crew-tablet.jpg')] lg:bg-[url('./../public/assets/crew/background-crew-desktop.jpg')] bg-cover min-h-screen">
+    <div className="flex flex-col bg-[url('/assets/crew/background-crew-mobile.jpg')] sm:bg-[url('/assets/crew/background-crew-tablet.jpg')] lg:bg-[url('/assets/crew/background-crew-desktop.jpg')] bg-cover min-h-screen">
       <NavBar active="02" />
       <SubHeading id="02" text="Meet your crew" />
       <main className="flex flex-col-reverse md:flex-col lg:flex-row lg:mr-20 justify-around items-center flex-auto relative px-10">

@@ -6,7 +6,7 @@ import { data } from "../../utils/data";
 
 const technology = ({ tech, parts }) => {
   return (
-    <div className="flex flex-col bg-[url('./../public/assets/technology/background-technology-mobile.jpg')] sm:bg-[url('./../public/assets/technology/background-technology-tablet.jpg')] lg:bg-[url('./../public/assets/technology/background-technology-desktop.jpg')] bg-cover max-w-screen min-h-screen">
+    <div className="flex flex-col bg-[url('/assets/technology/background-technology-mobile.jpg')] sm:bg-[url('/assets/technology/background-technology-tablet.jpg')] lg:bg-[url('/assets/technology/background-technology-desktop.jpg')] bg-cover max-w-screen min-h-screen">
       <Navbar active="03" />
       <SubHeading id="03" text="SPACE LAUNCH 101" />
       <main className="lg:flex-auto flex lg:ml-20 mb-20 flex-col-reverse lg:flex-row">
