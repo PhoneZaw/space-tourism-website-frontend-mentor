@@ -3,7 +3,7 @@ import MainButton from "../components/MainButton";
 
 export default function Home() {
   return (
-    <div className="bg-[url('../public/assets/home/background-home-mobile.jpg')] sm:bg-[url('../public/assets/home/background-home-tablet.jpg')] lg:bg-[url('../public/assets/home/background-home-desktop.jpg')] bg-cover w-screen min-h-screen flex flex-col">
+    <div className="bg-[url('./../public/assets/home/background-home-mobile.jpg')] sm:bg-[url('./../public/assets/home/background-home-tablet.jpg')] lg:bg-[url('./../public/assets/home/background-home-desktop.jpg')] bg-cover w-screen min-h-screen flex flex-col">
       <Navbar active="00" />
       <main className="flex flex-col lg:flex-row lg:justify-around items-center flex-auto px-10">
         <section className="mt-10 items-center flex flex-col lg:block">
